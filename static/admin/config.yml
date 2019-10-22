@@ -1,11 +1,12 @@
 backend:
-  name: test-repo
+  name: github
+  repo: b-marie/colloquium
 media_folder: static/assets
 public_folder: assets
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: content
+    label: Content
+    folder: content
     create: true
     fields:
       - { name: path, label: Path }
